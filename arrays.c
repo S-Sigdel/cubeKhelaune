@@ -20,12 +20,25 @@ int revLeftMotion();
 int revUpMotion();
 int revDownMotion();
 int main(){
+//function declaration for rotation(transpose)
+int rotate90(int arr[2][2]);//vanila transpose
+int rotateNeg90(int arr[2][2]);//reverse transpose
 
 }
 //initialize global vairable, so that different functions can modify the cube state without passing
-char arrayFront[3][3],arrayLeft[3][3],arrayRight[3][3],arrayTop[3][3],arrayDown[3][3],arrayBack[3][3];
+char arrayFront[2][2],arrayLeft[2][2],arrayRight[2][2],arrayTop[2][2],arrayDown[2][2],arrayBack[2][2];
 int arrayValueTaker(){
 
 	//function to read array from camera and return it back to the main function, will probably use openCV
+
+}
+//function definition for each move:
+
+int frontMotion(){
+//arrays to modify: front, top, bottom, right, left
+
+
+//front modification: rotate the matrix 90deg clockwise, array to modify: arrayFront
+
 
 }
